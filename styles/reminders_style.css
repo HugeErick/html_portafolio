@@ -1,0 +1,29 @@
+
+
+.wrapper_reminders{
+	display:grid;
+	border: dashed blue;
+	margin:0 20% 0 20%;
+	grid-template-columns:repeat(3, 1fr);
+	grid-template-rows:repeat(1,auto);
+	height: auto;
+}
+.item{
+	border:solid black;
+	justify-content:center;
+	text-align:center;
+}
+a{
+	text-decoration: none;
+	color:#252525;
+}
+
+
+
+
+
+
+
+
+
+
