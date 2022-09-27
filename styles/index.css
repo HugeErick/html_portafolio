@@ -18,6 +18,7 @@ a {
 .dropdown-box {
   display:flex;
   justify-content: center;
+  margin-top: 0.5em;
 }
 
 /* Dropdown Button */
@@ -75,5 +76,8 @@ a {
 .demo-heading {
   display: flex;
   justify-content: center;
+  margin-top: 2.2em;
+  color:#FFC7D4;
+  font-size: 1.9em;
   text-transform: uppercase;
 }
