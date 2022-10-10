@@ -1,0 +1,23 @@
+{
+  "name": "webpages",
+  "version": "1.0.0",
+  "description": "html portafolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugeErick/html_portafolio.git"
+  },
+  "keywords": [
+    "html-portafolio",
+    "portafolios"
+  ],
+  "author": "tr0ncoduro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HugeErick/html_portafolio/issues"
+  },
+  "homepage": "https://github.com/HugeErick/html_portafolio/blob/main/app.js"
+}
