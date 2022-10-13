@@ -1,46 +1,97 @@
 *{
-  box-sizing: border-box !important;
+  box-sizing: border-box;
 }
 body {
-  background: linear-gradient(45deg, #E02852, #7938C7) !important;
-  height: 100vh !important;
-  width: 100vw !important;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #E02852, #7938C7);
+  height: 100vh;
+  width: 100vw;
 }
 a {
-  text-decoration: none !important;
-  color: #ffffff !important;
+  text-decoration: none;
+  color: #ffffff;
 }
 .logo-img {
-  height: 1.8em !important;
+  height: 1.8em;
+}
+.dropdown-box {
+  display:flex;
+  justify-content: center;
+  margin-top: 0.5em;
 }
 
+/* Dropdown Button */
+.dropbtn {
+  background-color: inherit;
+  color: white;
+  padding: 16px;
+  font-size: 1.7em;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown 
+.dropdown:hover .dropbtn {background-color: #383FC7;}
+*/
+.dropdown:hover .dropbtn {text-shadow: 0px 0em 2px #ffffff;}
+
 .gratitute {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: end !important;
-  color:#f1f1f1 !important;
-  font-size: 1.3em !important;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color:#f1f1f1;
+  font-size: 1.3em;
 }
 
 .demo-heading {
-  cursor: default !important;
-  display: flex !important;
-  justify-content: center !important;
-  margin-top: 2.2em !important;
-  color:#FFC7D4 !important;
-  font-size: 1.9em !important;
-  text-transform: uppercase !important;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2em;
+  color:#FFC7D4;
+  font-size: 1.9em;
+  text-transform: uppercase;
 }
 .navbar-items {
-  display: flex !important;
-  justify-content: start !important;
-  align-items: center !important;
-  padding: 0.8em 0em 0em 3.5em !important;
-  margin-bottom: 2em !important;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0.8em 0em 0em 3.5em;
+  margin-bottom: 2em;
 }
 .nav-item-box{
-  padding-right: 1em !important;
+  padding-right: 1em;
 }
 .navbar-items a{
-  font-size: 2em !important;
+  font-size: 2em;
 }
