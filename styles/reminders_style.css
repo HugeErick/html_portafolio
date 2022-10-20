@@ -3,6 +3,47 @@ body {
     width: 100vw !important;
 }
  #calendar {
-    margin: 50px auto;
+    margin: 50px auto !important;
+ }
+ #calendar .header{
+    background: #00ADB5;
+    background: -moz-linear-gradient(linear, right top, right bottom, from(#fff), to(#393E46));
+    height: 2.1em !important;
+ }
+ #calendar .header .hook {
+    width: 0.6em !important;
+    height: 1.8em !important;
+    bottom: 60% !important;
+ }
+ .right.hook{
+    right: 15% !important;
+ }
+ .left.hook{
+    left: 15% !important;
+ }
+ .button-not-b {
+    z-index: 8 !important;
+ }
+ #calendar .header .button-not-b {
+    width: 1.5em !important;
+ }
+ #calendar .header .left.button-not-b {
+    left: 0 !important;
+    border-right: 1px solid #00ADB5;
+ }
+ #calendar .header .right.button-not-b {
+    right: 0 !important;
+    top: 0 !important;
+    border-right: 1px solid #00ADB5;
+ }
+  .button-not-b:hover {
+    background: -moz-linear-gradient(top, #00ADB5, #EEEEEE) !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00ADB5), to(#EEEEEE));
+ }
+
+ #calendar .header .month-year {
+    right: 0.2em !important;
+    letter-spacing: 1px !important;
+    width: 100% !important;
  }
 
